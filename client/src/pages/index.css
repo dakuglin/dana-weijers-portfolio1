@@ -1,0 +1,117 @@
+
+/* All Pages 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+body {
+    background-color:#F7F3F5;
+}
+
+/* About Page Styling 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+.main-text {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 31px;
+    color: #5C6C59; 
+    margin-top: 20px;
+}
+
+.main-text.name {
+    color: #E27D60;
+    margin-top: 10px; 
+    margin-top: 20px;
+}
+
+span.main-text {
+    font-style: italic;
+}
+
+.main-text.technologies {
+    font-size: 32px;
+    font-style: italic;   
+    font-weight: bold;
+}
+
+/* Resume Page Styling 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+.resume  {
+    display: block;
+    margin: 0 auto;
+    user-select: none;
+    width: 612px;
+    height: 792px;
+}
+
+/* Portfolio Page Styling 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+.card-deck {
+    padding: 20px;
+    margin: auto;
+}
+
+.project-card {
+    margin: 20px !important;
+}
+
+.card-img-top {
+    padding: 20px;
+    border: black 3px solid;
+}
+
+.github-btn {
+    color: #2f0909;
+    font-size: 36px;
+}
+
+.deploy-btn {
+    color: #2f0909;
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+.card-title.h5 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #2f0909;
+    font-style: italic;
+    font-size: 27px;
+    
+}
+  
+p.card-text {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #2f0909;
+    font-size: 20px;
+}
+
+/* Contact Page Styling 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+.contact-container {
+    padding-top: 50px;
+}
+
+.contact-text {
+    text-align: center;
+}
+
+.contact-img {
+    height: 600px;
+    border: black 3px solid;
+}
+
+img.img-fluid {
+    width: 0px;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+
