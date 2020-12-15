@@ -24,8 +24,8 @@ class Form extends Component {
             <form onSubmit={this.submitForm} action="https://formspree.io/f/xrgoyoay" method="POST"> 
               <div className="form-group">
               <h4 className="contact-text">Please contact me about any web development needs.</h4>
-              {/* <h4 className="contact-info">dakuglin@gmail.com</h4>
-              <h4 className="contact-info">970.237.9712</h4> */}
+              <h4 className="contact-info">dakuglin@gmail.com</h4>
+              <h4 className="contact-info">970.237.9712</h4>
               <br></br>
                 <label>Name</label>
                 <input type="text" name="name" className="form-control"/>
