@@ -15,8 +15,6 @@ function Contact() {
                     <img className="img-fluid" src="./images/dana.png" alt="Dana Weijers" />
                 </div>
             </Col>
-            
-            
             <Col sm={5}> 
                 <Form /> 
             </Col>

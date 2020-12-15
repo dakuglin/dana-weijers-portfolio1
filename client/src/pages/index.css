@@ -12,12 +12,12 @@ body {
 .main-text {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 31px;
-    color: #5C6C59; 
+    color: #5D5C61; 
     margin-top: 20px;
 }
 
 .main-text.name {
-    color: #E27D60;
+    color: #5D5C61;
     margin-top: 10px; 
     margin-top: 20px;
 }
@@ -48,7 +48,7 @@ span.main-text {
 */
 .card-deck {
     padding: 20px;
-    margin: auto;
+    margin: auto;  
 }
 
 .project-card {
@@ -57,7 +57,8 @@ span.main-text {
 
 .card-img-top {
     padding: 20px;
-    border: black 3px solid;
+    border: #C38D9E 5px solid;
+    height: 290px;
 }
 
 .github-btn {
@@ -72,21 +73,23 @@ span.main-text {
 }
 
 .card-footer {
+    font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
+    font-weight: bold;
+    font-size: 21px;
 }
 
 .card-title.h5 {
     font-family: 'Open Sans Condensed', sans-serif;
-    color: #2f0909;
+    color: #5D5C61;
     font-style: italic;
-    font-size: 27px;
-    
+    font-size: 27px;  
 }
   
 p.card-text {
     font-family: 'Open Sans Condensed', sans-serif;
-    color: #2f0909;
-    font-size: 20px;
+    color: #5D5C61;
+    font-size: 21px;
 }
 
 /* Contact Page Styling 
@@ -102,16 +105,17 @@ p.card-text {
 
 .contact-img {
     height: 600px;
-    border: black 3px solid;
+    border: #C38D9E 3px solid;
 }
 
 img.img-fluid {
-    width: 0px;
-    height:auto;
+    /* width: 0px; */
+    height: 600px; 
+    width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 
 

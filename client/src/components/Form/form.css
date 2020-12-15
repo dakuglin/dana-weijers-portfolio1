@@ -1,9 +1,22 @@
 
 form {
-    background-color: lightpink;
+    background-color: #C38D9E;
     padding: 50px;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     height: 600px;
+}
+
+.contact-text {
+    font-family: 'IM Fell English', serif;
+    font-size: 35px;
+
+}
+
+.contact-info {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;  
 }
 

@@ -15,8 +15,7 @@ function Portfolio() {
                 <Card.Body>
                     <Card.Title> Shake It Up </Card.Title>
                     <Card.Text>
-                        Has it ever taken you forever to decide what to do on a Friday night? The creators of Shake It Up have developed a fun and unique solution to this problem! Never argue about plans again!
-                        <br></br>
+                        Has it ever taken you forever to decide what to do on a Friday night? The creators of Shake It Up have developed a fun and unique solution to this problem! Never argue about plans again! Allow Shake It Up to randomly generate an activity for you. 
                         <br></br>
                         <br></br>
                     </Card.Text>
@@ -69,6 +68,8 @@ function Portfolio() {
                     <Card.Title>Hotel Motel</Card.Title>
                     <Card.Text>
                     Are you tired of using overcomplicated and expensive property management systems for your small hotel or motel? Hotel Motel aims to solve these problems with its simple, easy to use interface. Quickly view guest information and hotel occupancy on one screen.
+                    <br></br>
+                    <br></br>
                     </Card.Text>
                     <OverlayTrigger placement="top"
                         overlay={<Tooltip id="tooltip-disabled">GitHub</Tooltip>} >
@@ -147,7 +148,7 @@ function Portfolio() {
                 <Card.Body>
                     <Card.Title>Code Quiz</Card.Title>
                     <Card.Text>
-                    Want to test your coding skills? Hop on over to this interactive code quiz to test your JavaScript knowledge, better study up!
+                    Want to test your coding skills? Hop on over to this interactive code quiz to test your JavaScript knowledge, better study up! 
                     <br></br>
                     <br></br>
                     <br></br>

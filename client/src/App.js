@@ -5,7 +5,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import MyResume from "./components/Resume/Resume";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/index.js";
+import { FooterContainer } from "./containers/footer";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio} />
         </Switch>
       </div>
-      <Footer />
+      <FooterContainer />
     </Router>
     </>
   );

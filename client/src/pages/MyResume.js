@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 function MyResume() {
     return (
         <>
-        <Container fluid>
+        <Container fluid className="background">
             <Row>
                 <Col>
                     <Resume />
