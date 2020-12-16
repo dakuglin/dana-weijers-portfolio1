@@ -1,6 +1,7 @@
 import React from "react";
 import Form from "../components/Form/Form";
 import { Container, Row, Col } from "react-bootstrap";
+import danajpg from "../images/dana.jpg";
 import "./index.css";
 
 function Contact() {
@@ -12,7 +13,7 @@ function Contact() {
             <Col sm={1}></Col>
             <Col sm={5}> 
                 <div className="contact-img">
-                    <img className="img-fluid" src="./images/dana.png" alt="Dana Weijers" />
+                    <img className="img-fluid" src={danajpg} alt="Dana Weijers" />
                 </div>
             </Col>
             <Col sm={5}> 

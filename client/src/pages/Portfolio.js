@@ -3,6 +3,12 @@ import "./index.css"
 import { Card, CardDeck, OverlayTrigger, Tooltip } from "react-bootstrap";
 import { GrDeploy } from "react-icons/gr"
 import { DiGithubBadge } from "react-icons/di";
+import shakeitjpg from "../images/shakeit.jpg";
+import dogjpg from "../images/dogdenver.jpg";
+import hoteljpg from "../images/hotel.jpg";
+import burgerjpg from "../images/burger.jpg";
+import passowrdjpg from "../images/password.jpg";
+import quizjpg from "../images/quiz.jpg";
 
 
 function Portfolio() {
@@ -11,7 +17,7 @@ function Portfolio() {
         <>
         <CardDeck className="card-deck">
             <Card className="project-card">
-                <Card.Img variant="top" src="./images/shakeit.png" alt="Shake It Up" />
+                <Card.Img variant="top" src={shakeitjpg} alt="Shake It Up" />
                 <Card.Body>
                     <Card.Title> Shake It Up </Card.Title>
                     <Card.Text>
@@ -38,7 +44,7 @@ function Portfolio() {
             </Card>
             
             <Card className="project-card">
-                <Card.Img variant="top" src="./images/dogdenver.png" alt="Dog Friendly Denver" />
+                <Card.Img variant="top" src={dogjpg} alt="Dog Friendly Denver" />
                 <Card.Body>
                     <Card.Title>Dog Friendly Denver</Card.Title>
                     <Card.Text>
@@ -63,7 +69,7 @@ function Portfolio() {
             </Card>
 
             <Card className="project-card">
-                <Card.Img variant="top" src="./images/hotel.png" alt="Hotel Motel" />
+                <Card.Img variant="top" src={hoteljpg} alt="Hotel Motel" />
                 <Card.Body>
                     <Card.Title>Hotel Motel</Card.Title>
                     <Card.Text>
@@ -92,7 +98,7 @@ function Portfolio() {
 
         <CardDeck className="card-deck">
             <Card className="project-card">
-                <Card.Img variant="top" src="./images/burger.png" alt="Eat-Da-Burger" />
+                <Card.Img variant="top" src={burgerjpg} alt="Eat-Da-Burger" />
                 <Card.Body>
                     <Card.Title>Eat-Da-Burger</Card.Title>
                     <Card.Text>
@@ -119,7 +125,7 @@ function Portfolio() {
             </Card>
 
             <Card className="project-card">
-                <Card.Img variant="top" src="./images/password.png" alt="Password Generator" />
+                <Card.Img variant="top" src={passowrdjpg} alt="Password Generator" />
                 <Card.Body>
                     <Card.Title>Password Generator</Card.Title>
                     <Card.Text>
@@ -144,7 +150,7 @@ function Portfolio() {
             </Card>
 
             <Card className="project-card">
-                <Card.Img variant="top" src="./images/quiz.png" alt="Code Quiz" />
+                <Card.Img variant="top" src={quizjpg} alt="Code Quiz" />
                 <Card.Body>
                     <Card.Title>Code Quiz</Card.Title>
                     <Card.Text>
