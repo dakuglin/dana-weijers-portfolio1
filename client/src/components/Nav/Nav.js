@@ -1,43 +1,24 @@
 import React from "react";
-import "./nav.css"
+import "./nav.css";
+import * as RBS from "react-bootstrap";;
 
 function Nav() {
   return (
     <>  
-    <nav className="navbar navbar-expand-md navbar-light bg">
-      <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-        <ul className="navbar-nav mr-auto">
-          <li className="nav-item">
-            <a className="nav-link" href="/"><span className="nav-text">about me</span></a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/contact"><span className="nav-text">contact</span></a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/portfolio"><span className="nav-text">portfolio</span></a>
-          </li>
-        </ul>
-      </div>
-      <div className="mx-auto order-0">
-        <a className="navbar-brand mx-auto" href="/"><span className="nav-name">dana weijers</span></a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-            <span className="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
-        <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
-            <a className="nav-link" href="https://www.linkedin.com/in/danakuglin" target="_blank" rel="noopener noreferrer"><span className="nav-text">linkedin</span></a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="https://github.com/dakuglin" target="_blank" rel="noopener noreferrer"><span className="nav-text">github</span></a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/resume"><span className="nav-text">resume</span></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <RBS.Navbar bg="light" expand="lg">
+      <RBS.Navbar.Brand href="/"><span className="nav-name">dana weijers</span></RBS.Navbar.Brand>
+      <RBS.Navbar.Collapse id="basic-navbar-nav">
+        <RBS.Nav className="mr-auto">
+          <RBS.Nav.Link href="/"><span className="navLink">about me</span></RBS.Nav.Link>
+          <RBS.Nav.Link href="/contact"><span className="navLink">contact</span></RBS.Nav.Link>
+          <RBS.Nav.Link href="/portfolio"><span className="navLink">portfolio</span></RBS.Nav.Link>
+          <RBS.Nav.Link  href="https://www.linkedin.com/in/danakuglin" target="_blank" rel="noopener noreferrer"><span className="navLink">linkedin</span></RBS.Nav.Link>
+          <RBS.Nav.Link href="https://github.com/dakuglin" target="_blank" rel="noopener noreferrer"><span className="navLink">github</span></RBS.Nav.Link>
+          <RBS.Nav.Link href="/resume"><span className="navLink">resume</span></RBS.Nav.Link>
+        </RBS.Nav>
+      </RBS.Navbar.Collapse>
+      <RBS.Navbar.Toggle aria-controls="basic-navbar-nav" />
+    </RBS.Navbar>
     </>
   );
 };

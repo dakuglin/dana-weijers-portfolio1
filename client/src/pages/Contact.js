@@ -12,12 +12,12 @@ function Contact() {
             <Row>
             <Col sm={1}></Col>
             <Col sm={5}> 
+                <Form /> 
+            </Col>
+            <Col sm={5}> 
                 <div className="contact-img">
                     <img className="img-fluid" src={danajpg} alt="Dana Weijers" />
                 </div>
-            </Col>
-            <Col sm={5}> 
-                <Form /> 
             </Col>
             <Col sm={1}></Col>
             </Row>

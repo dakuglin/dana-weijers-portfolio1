@@ -1,33 +1,17 @@
 
-@media (min-width: 768px) {
-    .navbar-brand.abs
-    {
-        position: absolute;
-        width: 100%;
-        left: 0;
-        text-align: center;
-    }
-}
-
 .nav-name {
     font-family: 'IM Fell English', serif;
     font-style: italic;
     font-size: 50px;
     color: #C38D9E;
     font-weight: bold;
+    text-transform: lowercase;
+    text-align: center;
 }
 
-.nav-link {
+span.navLink {
     font-family: 'IM Fell English', serif;
     font-style: italic;
-    font-size: 30px;
+    font-size: 25px;
     color: #C38D9E;
 }
-
-span.nav-text {
-    color:#C38D9E;
-}
-
-span.nav-name {
-    text-transform: lowercase;
-}   

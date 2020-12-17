@@ -43,3 +43,17 @@ label {
     transition-duration: 0.4s;
 }
 
+@media (max-width: 768px) {
+    h4.contact-text {
+        font-size: 5vw;
+    }
+    h4.contact-info {
+        font-size: 5vw;
+    }
+    form {
+        display: grid;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+

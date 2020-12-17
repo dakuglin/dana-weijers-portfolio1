@@ -10,10 +10,7 @@
     background-size: cover;
     position: relative;
     overflow: visible;
-    z-index:-1;
-    /* margin-left:auto;
-    margin-right: auto; */
-    
+    z-index:-1;   
 }
 
 .hero-overlay {
@@ -31,6 +28,15 @@
     font-size: 80px;
     text-align: center; 
 }
+ 
+ @media (max-width: 980px) {
+    .hero-overlay h1 {
+        font-size: 12vw;
+        padding-top: 80px;
+        padding-right: 70px;
+    }
+}
+
 
 
 

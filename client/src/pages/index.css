@@ -32,6 +32,14 @@ span.main-text {
     font-weight: bold;
 }
 
+/* @media (max-width: 1500px) {
+    .main-text.technologies {
+        text-align: left;
+    }
+} */
+
+
+
 /* Resume Page Styling 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 */
