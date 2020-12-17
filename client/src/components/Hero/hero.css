@@ -1,4 +1,6 @@
-
+/* Hero Styling
+///////////////////////////////////////////////////////////////////////////////////////////////////
+*/
 .hero-container {
     position: relative;
 }
@@ -28,15 +30,23 @@
     font-size: 80px;
     text-align: center; 
 }
- 
- @media (max-width: 980px) {
+
+/* Media Queries 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+/* 320px — 480px: Mobile devices */
+@media (width: 320px) {
     .hero-overlay h1 {
-        font-size: 12vw;
-        padding-top: 80px;
-        padding-right: 70px;
+        font-size: 9vw;
+        padding-top: 60px;
+        padding-right: 150px;
+    }
+    .hero-img {
+        width: 100%;
+        height: 270px;
     }
 }
-
-
+ 
 
 

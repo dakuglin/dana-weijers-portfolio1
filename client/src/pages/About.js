@@ -15,7 +15,7 @@ function About() {
                 <Col>
 
                     <p className="main-text name">
-                        Please allow me introduce myself, my name is Dana Ann Weijers.
+                        Please allow me introduce myself, my name is <span className="main-text">Dana Ann Weijers.</span>
                     </p>
                     
                     <p className="main-text">

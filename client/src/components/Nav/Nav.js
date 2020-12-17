@@ -5,7 +5,7 @@ import * as RBS from "react-bootstrap";;
 function Nav() {
   return (
     <>  
-    <RBS.Navbar bg="light" expand="lg">
+    <RBS.Navbar bg="light" expand="lg" >
       <RBS.Navbar.Brand href="/"><span className="nav-name">dana weijers</span></RBS.Navbar.Brand>
       <RBS.Navbar.Collapse id="basic-navbar-nav">
         <RBS.Nav className="mr-auto">
