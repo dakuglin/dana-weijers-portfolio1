@@ -13,21 +13,17 @@ import {
 export function FooterContainer() {
     return (
         <Footer>
-            <Footer.Wrapper>
-               
-                   
-                    <Footer.Link>dana weijers 2020</Footer.Link>
-                    <Footer.Link href="#">linkedin</Footer.Link>
-                    <Footer.Link href="#">github</Footer.Link>
-                    {/* <DiJavascript1 />
-                    <DiReact />
-                    <DiNodejsSmall />
-                    <DiMongodb />
-                    <DiMysql />
-                    <DiHtml5 />
-                    <DiCss3 /> */}
-            
-              
+            <Footer.Wrapper>    
+                <Footer.Link>dana weijers 2020</Footer.Link>
+                {/* <Footer.Link href="#">linkedin</Footer.Link>
+                <Footer.Link href="#">github</Footer.Link> */}
+                {/* <DiJavascript1 />
+                <DiReact />
+                <DiNodejsSmall />
+                <DiMongodb />
+                <DiMysql />
+                <DiHtml5 />
+                <DiCss3 /> */}
             </Footer.Wrapper>
         </Footer>
     );

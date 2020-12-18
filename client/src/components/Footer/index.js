@@ -26,37 +26,3 @@ Footer.Title = function FooterTitle({children, ...restProps}) {
     return <Title {...restProps}>{children}</Title>
 }
 
-
-// import { 
-//     DiMysql, 
-//     DiJavascript1, 
-//     DiMongodb,
-//     DiReact,
-//     DiHtml5,
-//     DiCss3,
-//     DiNodejsSmall,
-//     DiGithubBadge,
-    
-// } from "react-icons/di";
-// import "./footer.css";
-
- // return(
-    //     <>
-    //     <div>
-    //         <p className="footer"> dana weijers 2020</p>
-    //         <div>
-    //             <DiJavascript1 />
-    //             <DiReact />
-    //             <DiNodejsSmall />
-    //             <DiMysql />
-    //             <DiMongodb />
-    //             <DiHtml5 />
-    //             <DiCss3 />
-    //             <DiGithubBadge />
-                
-
-    //         </div>
-    //     </div>
-        
-    //     </>
-    // );

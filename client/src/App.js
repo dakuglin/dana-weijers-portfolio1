@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio} />
         </Switch>
       </div>
-      {/* <FooterContainer /> */}
+      <FooterContainer />
     </Router>
     </>
   );

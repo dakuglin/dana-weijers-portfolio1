@@ -32,6 +32,12 @@ span.main-text {
     font-weight: bold;
 }
 
+@media (max-width: 900px) {
+    p.main-text.technologies {
+        font-size: 20px;
+    }
+}
+
 /* Resume Page Styling 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 */
@@ -41,6 +47,7 @@ span.main-text {
     user-select: none;
     width: 612px;
     height: 792px;
+    margin-top: 20px;
 }
 
 /* Portfolio Page Styling 
@@ -92,6 +99,15 @@ p.card-text {
     font-size: 21px;
 }
 
+@media (max-width: 900px) {
+    .card-title.h5 {
+        font-size: 23px;
+    }
+    .card-footer {
+        font-size: 15px;
+    }
+}
+
 /* Contact Page Styling 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 */
@@ -105,16 +121,33 @@ p.card-text {
 
 .contact-img {
     height: 600px;
-    /* border: #C38D9E 3px solid; */
 }
 
 img.img-fluid {
     width: 420px;
     height: 650px; 
-    /* width: auto; */
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* margin-top: 20px; */
     border: #d6c5ca dashed 10px;
 }
+
+@media (max-width: 900px) {
+  h4.contact-text {
+    font-size: 3vw;
+  }
+  h4.contact-info {
+      font-size: 2vw;
+  }
+}
+
+@media (max-width: 760px) {
+    h4.contact-text {
+      font-size: 1vw;
+    }
+    h4.contact-info {
+        font-size: 1vw;
+    }
+}
+
+

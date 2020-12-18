@@ -2,9 +2,11 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     padding: 10px 10px;
-    background-color:pink;
-    
-   
+    background-color: #C38D9E;
+    text-align:center;
+    font-family: 'IM Fell English', serif;
+    font-style: italic;  
+    margin-top: 58px;
 `
 export const Wrapper = styled.div`
     // display: flex;
@@ -32,10 +34,9 @@ export const Row = styled.div`
 `
 
 export const Link = styled.div`
-    color:#fff;
-    // margin-bottom: 20px;
-    font-size: 18px;
-    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
     &:hover {
         color: #ff9c00;
         transition: 200ms ease-in;
