@@ -1,5 +1,6 @@
 import React from "react";
-import Resume from "../components/Resume/Resume";
+// import Resume from "../components/Resume/Resume";
+import resumejpg from "../images/resume.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 
 function MyResume() {
@@ -8,7 +9,7 @@ function MyResume() {
         <Container fluid className="background">
             <Row>
                 <Col>
-                    <Resume />
+                    <img className="resume img-fulid"src={resumejpg} alt="Dana Weijers Resume"/>
                 </Col>
             </Row>
         </Container>

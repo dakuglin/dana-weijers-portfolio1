@@ -32,12 +32,6 @@ span.main-text {
     font-weight: bold;
 }
 
-@media (max-width: 900px) {
-    p.main-text.technologies {
-        font-size: 20px;
-    }
-}
-
 /* Resume Page Styling 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 */
@@ -48,6 +42,7 @@ span.main-text {
     width: 612px;
     height: 792px;
     margin-top: 20px;
+    border: solid 3px #C38D9E;
 }
 
 /* Portfolio Page Styling 
@@ -99,15 +94,6 @@ p.card-text {
     font-size: 21px;
 }
 
-@media (max-width: 900px) {
-    .card-title.h5 {
-        font-size: 23px;
-    }
-    .card-footer {
-        font-size: 15px;
-    }
-}
-
 /* Contact Page Styling 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 */
@@ -132,22 +118,106 @@ img.img-fluid {
     border: #d6c5ca dashed 10px;
 }
 
+/* Media Queries 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
 @media (max-width: 900px) {
-  h4.contact-text {
-    font-size: 3vw;
-  }
-  h4.contact-info {
-      font-size: 2vw;
-  }
+    .hero-overlay h1 {
+        font-size: 7vw;
+        padding-top: 65px;
+        padding-right: 90px;
+    }
+    .hero-img {
+        height: 350px;
+    } 
+    h4.contact-text {
+        font-size: 3vw;
+    }
+    h4.contact-info {
+        font-size: 2vw;
+    }
+    .card-title.h5 {
+        font-size: 23px;
+    }
+    .card-footer {
+        font-size: 15px;
+    }
+    p.main-text.technologies {
+        font-size: 20px;
+    }
+    p.main-text.name {
+        font-size: 24px;
+    }
+    span.main-text {
+        font-size: 24px;
+    }
+    p.main-text {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 800px) {
+    .hero-overlay h1 {
+        font-size: 7vw;
+        padding-top: 65px;
+        padding-right: 130px;
+    }
+    .hero-img {
+        height: 320px;
+    }
+    span.nav-name {
+        font-size: 45px;
+    } 
 }
 
 @media (max-width: 760px) {
     h4.contact-text {
-      font-size: 1vw;
+      font-size: 20px;
     }
-    h4.contact-info {
+    .contact-info {
         font-size: 1vw;
     }
+    div.contact-container {
+        padding-top: 40px;
+    }
+    div.form-container.col-12 {
+        height: 20px;
+    }
 }
+
+@media (max-width: 414px) {
+    .hero-overlay h1 {
+        font-size: 10vw;
+        padding-top: 40px;
+        padding-right: 50px;
+    }
+    .hero-img {
+        height: 220px;
+    } 
+    span.nav-name {
+        font-size: 40px;
+    }
+    div.contact-container {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero-overlay h1 {
+        font-size: 11vw;
+        padding-top: 50px;
+        padding-right: 20px;
+    }
+    .hero-img {
+        height: 230px;
+    } 
+    span.nav-name {
+        font-size: 35px;
+    }
+}
+
+ 
+
 
 

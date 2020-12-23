@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Test from "./components/Nav/Nav";
+import Nav from "./components/Nav/Nav";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
-import MyResume from "./components/Resume/Resume";
+import MyResume from "./pages/MyResume";
 // import Footer from "./components/Footer/index.js";
 import { FooterContainer } from "./containers/footer";
 
@@ -13,7 +13,7 @@ function App() {
     <>
     <Router>
       <div>
-        <Test />
+        <Nav />
         <Switch>
           <Route exact path="/" component={About} />
           <Route exact path="/resume" component={MyResume} />
