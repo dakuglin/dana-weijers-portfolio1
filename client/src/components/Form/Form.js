@@ -18,30 +18,29 @@ class Form extends Component {
     const { status } = this.state;
 
     return (
-      <div className="form-container col-12">
+      <div className="form-container">
         <div className="form-container-backdrop">
-          <div className="App">
+          {/* <div className="App"> */}
             <form onSubmit={this.submitForm} action="https://formspree.io/f/xrgoyoay" method="POST"> 
               <div className="form-group">
               <h4 className="contact-text">Please contact me about any web development needs.</h4>
               <h4 className="contact-info">dakuglin@gmail.com</h4>
               <h4 className="contact-info">970.237.9712</h4>
-              <br></br>
-                <label>Name</label>
+                <label>Name:</label>
                 <input type="text" name="name" className="form-control"/>
               </div>
               <div className="form-group">
-                <label>Email</label>
+                <label>Email:</label>
                 <input type="email" name="email" className="form-control"/>
               </div>
               <div className="form-group">
-                <label >Message</label>
+                <label >Message:</label>
                 <textarea type="text" name="message" className="form-control"/>
               </div> 
               {status === "SUCCESS" ? <p>Thank you!</p> : <Button type="submit" className="btn btn-primary form">Send</Button>}
               {status === "ERROR" && <p>Ooops! There was an error.</p>}
             </form>
-          </div>
+          {/* </div> */}
         </div>
       </div>
       

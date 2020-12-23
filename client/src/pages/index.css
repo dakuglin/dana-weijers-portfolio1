@@ -94,28 +94,67 @@ p.card-text {
     font-size: 21px;
 }
 
-/* Contact Page Styling 
+/* Contact Page Styling & Form Styling
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 */
 .contact-container {
-    padding-top: 120px;
-}
-
-.contact-text {
-    text-align: center;
+    padding-top: 40px;
 }
 
 .contact-img {
     height: 600px;
-}
-
-img.img-fluid {
-    width: 420px;
-    height: 650px; 
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: #d6c5ca dashed 10px;
+}
+
+
+form {
+    background-color: #d6c5ca;
+    padding: 40px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    height: 600px;
+    width:auto;
+   
+}
+
+.contact-text {
+    font-family: 'IM Fell English', serif;
+    font-size: 31px;
+    text-align: center;
+    font-style: italic;
+}
+
+.contact-info {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size: 27px;
+    font-style: italic;  
+}
+
+label {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-style:italic;
+    font-weight: bold;
+}
+
+.btn.btn-primary.form {
+    background-color: #41B3A3; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
 }
 
 /* Media Queries 
@@ -132,10 +171,13 @@ img.img-fluid {
         height: 350px;
     } 
     h4.contact-text {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     h4.contact-info {
-        font-size: 2vw;
+        font-size: 2.5vw;
+    }
+    label {
+        font-size: 2vh;
     }
     .card-title.h5 {
         font-size: 23px;
@@ -171,19 +213,48 @@ img.img-fluid {
     } 
 }
 
-
 @media (max-width: 760px) {
     h4.contact-text {
-      font-size: 2vh;
+      font-size: 4vh;
     }
-    .contact-info {
-        font-size: 10vh;
+    h4.contact-info {
+        font-size: 3vh;
     }
     div.contact-container {
         padding-top: 40px;
     }
     div.form-container.col-12 {
         height: 20px;
+    }
+    form {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    label {
+        font-size: 2.5vh;
+    }
+}
+
+@media (max-width: 580px) {
+    h4.contact-text {
+      font-size: 4vh;
+    }
+    h4.contact-info {
+        font-size: 3vh;
+    }
+    div.contact-container {
+        padding-top: 40px;
+    }
+    div.form-container.col-12 {
+        height: 20px;
+    }
+    img.contact-img.img-fluid {
+        margin-top: 20px;
+    }
+    form {
+        height: 640px;
     }
 }
 
@@ -202,11 +273,24 @@ img.img-fluid {
     div.contact-container {
         padding-top: 50px;
     }
-    img.img-fluid {
-        margin-top: 670px;
+    img.contact-img.img-fluid  {
+        margin-top: 10px;
     }
     form {
-        height: 400px;
+        width: 100%;
+        height: 550px;
+    }
+    h4.contact-text {
+        font-size: 3vh;
+    }
+    h4.contact-info {
+        font-size: 2.5vh;
+    }
+    label {
+        font-size: 2.2vh;
+    }
+    button.btn.btn-primary.form {
+        width: 100%;
     }
     .resume {
         width: 290px;
@@ -226,11 +310,9 @@ img.img-fluid {
     span.nav-name {
         font-size: 35px;
     }
-    img.img-fluid {
-        margin-top: 670px;
-    }
     form {
-        height: 400px;
+        width: 100%;
+        height: 600px;
     }
 }
 

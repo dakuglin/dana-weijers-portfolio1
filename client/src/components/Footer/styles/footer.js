@@ -6,7 +6,7 @@ export const Container = styled.div`
     text-align:center;
     font-family: 'IM Fell English', serif;
     font-style: italic;  
-    margin-top: 68px;
+    margin-top: 147px;
 `
 export const Wrapper = styled.div`
     // display: flex;
