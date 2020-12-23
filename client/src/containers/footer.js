@@ -14,7 +14,7 @@ export function FooterContainer() {
     return (
         <Footer>
             <Footer.Wrapper>    
-                <Footer.Link>dana weijers 2020</Footer.Link>
+                <Footer.Link href="/">dana weijers 2020</Footer.Link>
                 {/* <Footer.Link href="#">linkedin</Footer.Link>
                 <Footer.Link href="#">github</Footer.Link> */}
                 {/* <DiJavascript1 />

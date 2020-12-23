@@ -1,5 +1,4 @@
 import React from "react";
-// import Resume from "../components/Resume/Resume";
 import resumejpg from "../images/resume.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 

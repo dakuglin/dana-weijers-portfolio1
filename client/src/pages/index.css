@@ -35,14 +35,14 @@ span.main-text {
 /* Resume Page Styling 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 */
-.resume  {
+.resume {
     display: block;
     margin: 0 auto;
     user-select: none;
     width: 612px;
     height: 792px;
     margin-top: 20px;
-    border: solid 3px #C38D9E;
+    border: dashed 5px #d6c5ca;
 }
 
 /* Portfolio Page Styling 
@@ -59,7 +59,7 @@ span.main-text {
 
 .card-img-top {
     padding: 20px;
-    border: #C38D9E 5px solid;
+    border: #d6c5ca 5px dashed;
     height: 290px;
 }
 
@@ -171,12 +171,13 @@ img.img-fluid {
     } 
 }
 
+
 @media (max-width: 760px) {
     h4.contact-text {
-      font-size: 20px;
+      font-size: 2vh;
     }
     .contact-info {
-        font-size: 1vw;
+        font-size: 10vh;
     }
     div.contact-container {
         padding-top: 40px;
@@ -201,6 +202,16 @@ img.img-fluid {
     div.contact-container {
         padding-top: 50px;
     }
+    img.img-fluid {
+        margin-top: 550px;
+    }
+    form {
+        height: 540px;
+    }
+    .resume {
+        width: 290px;
+        height: 500px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -214,6 +225,12 @@ img.img-fluid {
     } 
     span.nav-name {
         font-size: 35px;
+    }
+    img.img-fluid {
+        margin-top: 550px;
+    }
+    form {
+        height: 550px;
     }
 }
 
