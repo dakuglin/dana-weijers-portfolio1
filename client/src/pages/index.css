@@ -42,7 +42,7 @@ span.main-text {
     width: 612px;
     height: 792px;
     margin-top: 20px;
-    border: dashed 5px #d6c5ca;
+    border: solid 15px #d6c5ca;
     margin-bottom: 30px;
 }
 
@@ -60,7 +60,7 @@ span.main-text {
 
 .card-img-top {
     padding: 20px;
-    border: #d6c5ca 5px dashed;
+    border:  7px solid #d6c5ca;
     height: 290px;
 }
 
@@ -108,7 +108,7 @@ p.card-text {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: #d6c5ca dashed 10px;
+    border: white dotted 10px;
 }
 
 form {
@@ -136,9 +136,9 @@ form {
 
 label {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 25px;
     font-style:italic;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .btn.btn-primary.form {
