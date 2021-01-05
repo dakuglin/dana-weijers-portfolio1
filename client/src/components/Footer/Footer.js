@@ -6,7 +6,7 @@ function Footer() {
     return (
         <>
         <footer className="footer">
-            <span>dana weijers 2020</span>
+            <span>dana weijers 2021</span>
         </footer>
         </>
     );
